@@ -1,7 +1,7 @@
 Notizen
 =======
 
-Tempo ist Allgretto. Das heißt 120 Schläge die Minute. Das heißt eine halbe Note hat die Dauer einer Sekunde, bzw. eine Virtelnote hat die Dauer einer halben Sekunde.
+Tempo ist Allgretto. Das heißt 120 Schläge die Minute. Das heißt eine halbe Note hat die Dauer einer Sekunde, bzw. eine Viertelnote hat die Dauer einer halben Sekunde.
 
 Es gibt 6 Stimmen: A, B, C, D sind Gesang. E und F sind Klavier.
 
