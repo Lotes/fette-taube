@@ -1,1 +1,2 @@
-node generate.js
+node generate.js original
+node generate.js new
