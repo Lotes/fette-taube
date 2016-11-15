@@ -15,7 +15,7 @@ Jede Stimme hat bis zu 8 Taktmuster:
 |A|3b|![](/muster/A3b.png)|So un-sag-bar fett|
 |A|4|![](/muster/A4.png)|Dic-ke fet-te Tau-be|
 |A|5|![](/muster/A5.png)|so-ne fet-te|
-|A|6|![](/muster/A6.png)|Tau-be-be|
+|A|6|![](/muster/A6.png)|Tau-tau-be|
 |A|7|![](/muster/A7.png)|so un-sag-bar|
 |A|8|![](/muster/A8.png)|fett|
 |B|1|![](/muster/B1.png)|fet-te Tau-be|
@@ -30,23 +30,23 @@ Jede Stimme hat bis zu 8 Taktmuster:
 |C|5|![](/muster/C5.png)|fett|
 |D|1|![](/muster/D1.png)|fet-te|
 |D|2|![](/muster/D2.png)|so-ne fet-te|
-|D|3|![](/muster/D3.png)|Tau-be-be|
+|D|3|![](/muster/D3.png)|Tau-tau-be|
 |D|4|![](/muster/D4.png)|so un-sag-bar|
 |D|5|![](/muster/D5.png)|fett|
 |E|1a|![](/muster/E1a.png)|FET-te Tau-be, FET-te Tau-be|
 |E|1b|![](/muster/E1b.png)|FET-te Tau-be, FET-te Tau-be|
 |E|2|![](/muster/E2.png)|so-ne fet-te|
-|E|3|![](/muster/E3.png)|Tau-be-be|
+|E|3|![](/muster/E3.png)|Tau-tau-be|
 |E|4|![](/muster/E4.png)|so ... sag ...|
-|E|5|![](/muster/E5.png)|fet-te Tau-be, fet-te Tau-be-be, Tau-be|
-|E|6|![](/muster/E6.png)|fet-te Tau-be, so fet-te Tau-be, so fett, so-ho fett, fet-te Tau-be, fet-te Tau-be-be, Taube|
+|E|5|![](/muster/E5.png)|fet-te Tau-be, fet-te Tau-tau-be, Tau-be|
+|E|6|![](/muster/E6.png)|fet-te Tau-be, so fet-te Tau-be, so fett, so-ho fett, fet-te Tau-be, fet-te Tau-tau-be, Taube|
 |E|7|![](/muster/E7.png)|Tau-..., so ... sag ...|
 |F|1|![](/muster/F1.png)|fett|
 |F|2|![](/muster/F2.png)|... sag ...|
 |F|3|![](/muster/F3.png)|FET-te Tau-be, FET-te Tau-be|
 |F|4|![](/muster/F4.png)|... sag ...|
 |F|5|![](/muster/F5.png)|fett|
-|F|6|![](/muster/F6.png)|fet-te Tau-be, Tau-be-be|
+|F|6|![](/muster/F6.png)|fet-te Tau-be, Tau-tau-be|
 
 |Takt|A|B|C|D|E|F|
 |----|-|-|-|-|-|-|
