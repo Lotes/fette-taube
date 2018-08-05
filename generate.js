@@ -5,7 +5,7 @@ const folder = process.argv[process.argv.length - 1]
 
 function execute (params, outputFileName) {
   return new Promise(function (resolve, reject) {
-    exec('sox -m ' + params + ' ' + outputFileName, function (err) {
+    exec('sox --norm=-3 -c 1 -m ' + params + ' ' + outputFileName, function (err) {
       if (err) return reject(err)
       resolve()
     })
@@ -21,7 +21,7 @@ Promise.map(Object.keys(song), function (voice) {
   }).map(function (tuple) {
     var padding = tuple[0] * 2
     var takt = tuple[1]
-    return '"|sox muster/' + folder + '/' + voice + takt + '.ogg -p pad ' + padding + ' 0"'
+    return '"|sox --norm=-3 -c 1 muster/' + folder + '/' + voice + takt + '.ogg -p pad ' + padding + ' 0"'
   }).join(' ')
   var fileName = voice + '.ogg'
   console.log('generate ' + fileName)
@@ -31,7 +31,7 @@ Promise.map(Object.keys(song), function (voice) {
     })
 })
 .then(function (fileNames) {
-  console.log('generate final.ogg')
+  console.log('generate ' + folder + '.ogg')
   return execute(fileNames.join(' '), folder + '.ogg')
 })
 .catch(function (err) {
