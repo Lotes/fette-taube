@@ -30,7 +30,7 @@ Jede Stimme hat bis zu 8 Taktmuster:
 |C|5|![](/muster/C5.png)|fett|
 |D|1|![](/muster/D1.png)|fet-te|
 |D|2|![](/muster/D2.png)|so-ne fet-te|
-|D|3|![](/muster/D3.png)|Tau-tau-be|
+|D|3|![](/muster/D3.png)|Tau-u-be|
 |D|4|![](/muster/D4.png)|so un-sag-bar|
 |D|5|![](/muster/D5.png)|fett|
 |E|1a|![](/muster/E1a.png)|FET-te Tau-be, FET-te Tau-be|
@@ -46,7 +46,7 @@ Jede Stimme hat bis zu 8 Taktmuster:
 |F|3|![](/muster/F3.png)|FET-te Tau-be, FET-te Tau-be|
 |F|4|![](/muster/F4.png)|... sag ...|
 |F|5|![](/muster/F5.png)|fett|
-|F|6|![](/muster/F6.png)|fet-te Tau-be, Tau-tau-be|
+|F|6|![](/muster/F6.png)|fet-te Tau-be, Tau-u-be|
 
 |Takt|A|B|C|D|E|F|
 |----|-|-|-|-|-|-|
