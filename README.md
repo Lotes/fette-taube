@@ -1,7 +1,13 @@
-Notizen
-=======
+Fette Taube
+===========
+
+Tempo
+-----
 
 Tempo ist Allgretto. Das heißt 120 Schläge die Minute. Das heißt eine halbe Note hat die Dauer einer Sekunde, bzw. eine Viertelnote hat die Dauer einer halben Sekunde.
+
+Stimmen
+-------
 
 Es gibt 6 Stimmen: A, B, C, D sind Gesang. E und F sind Klavier.
 
@@ -47,6 +53,11 @@ Jede Stimme hat bis zu 8 Taktmuster:
 |X|F|4|![](/muster/F4.png)|... sag ...|
 |X|F|5|![](/muster/F5.png)|fett|
 |X|F|6|![](/muster/F6.png)|fet-te Tau-be, Tau-u-be|
+
+Zusammenspiel
+-------------
+
+Die einzelnen Takte werden wie folgt miteinander abgespielt. Das Lied ist insgesamt 1:56 lang.
 
 |Takt|A|B|C|D|E|F|
 |----|-|-|-|-|-|-|
@@ -108,3 +119,15 @@ Jede Stimme hat bis zu 8 Taktmuster:
 |56|||||1a|1|
 |57|||||1b|5|
 |58|||||(1b)|(5)|
+
+Technik
+-------
+
+Die einzelnen Aufnahmen werden geskriptet zusammengefügt. Die Skriptsprache ist Javascript. Das Schlüsselprogramm zum zusammenfügen heißt `sox` und ist frei verfügbar.
+
+ * installiere `nodejs` und `sox`
+ 
+Lizenz
+------
+
+ALLES MEINS! MUHAHAH!
