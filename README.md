@@ -125,8 +125,42 @@ Technik
 
 Die einzelnen Aufnahmen werden geskriptet zusammengefügt. Die Skriptsprache ist Javascript. Das Schlüsselprogramm zum zusammenfügen heißt `sox` und ist frei verfügbar.
 
- * installiere `nodejs` und `sox`
+ * installiere `sox`
+ * installiere `nodejs` und `npm`
+ * ausführen: `npm install`
  
+Aufbau
+------
+
+Zutaten:
+
+* Rechner
+	* Audacity
+	* Treiber für Steinberg CI1
+* Steinberg CI1 für die Aufnahmen
+* Mikrofonspinne
+* Mikrofon
+* Mikrofonständer
+* Mikrofonkabel
+* USB-Kabel
+* 2 Kopfhörer
+* T-Stück: 2 kleine auf 1 große Klinke
+
+Anleitung:
+
+* Mikrofonständer mit Mikrofon und Spinne aufbauen und mit dem CI1 mittels Kabel an Eingang 1/L verbinden
+* Rechner per USB mit dem CI1 verbinden
+* Beide Kopfhörer mittels T-Stück an CI1 Eingang Phones verbinden
+* Einstellungen CI1
+	* Mono = 1
+	* Phantom = 1
+	* Hi-Z = 0
+	* Phones + Gain 1 nach Bedarf
+* Einstellungen Audacity
+	* MME
+	* Aufnahme: Line (Steinberg CI1) | 1 (Mono) Aufnahme
+	* Wiedergabe: Line (Steinberg CI1)
+
 Lizenz
 ------
 
