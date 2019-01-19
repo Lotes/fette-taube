@@ -21,7 +21,7 @@ Promise.map(Object.keys(song), function (voice) {
   }).map(function (tuple) {
     var padding = tuple[0] * 2
     var takt = tuple[1]
-	var volumeFactor = voice === 'A' ? 1 : 0.1;
+	var volumeFactor = voice === 'A' ? 1 : 0.2;
     return '"|sox -v '+volumeFactor+' --norm=-3 -c 1 muster/' + folder + '/' + voice + takt + '.ogg -p pad ' + padding + ' 0"'
   }).join(' ')
   var fileName = voice + '.ogg'
@@ -30,7 +30,7 @@ Promise.map(Object.keys(song), function (voice) {
     .then(function () {
       return fileName
     })
-})
+}, {concurrency: 1})
 .then(function (fileNames) {
   console.log('generate ' + folder + '.ogg')
   return execute(fileNames.join(' '), folder + '.ogg')
