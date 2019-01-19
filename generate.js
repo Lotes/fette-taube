@@ -21,7 +21,8 @@ Promise.map(Object.keys(song), function (voice) {
   }).map(function (tuple) {
     var padding = tuple[0] * 2
     var takt = tuple[1]
-    return '"|sox --norm=-3 -c 1 muster/' + folder + '/' + voice + takt + '.ogg -p pad ' + padding + ' 0"'
+	var volumeFactor = voice === 'A' ? 1 : 0.1;
+    return '"|sox -v '+volumeFactor+' --norm=-3 -c 1 muster/' + folder + '/' + voice + takt + '.ogg -p pad ' + padding + ' 0"'
   }).join(' ')
   var fileName = voice + '.ogg'
   console.log('generate ' + fileName)
